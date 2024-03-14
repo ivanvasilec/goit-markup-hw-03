@@ -36,9 +36,15 @@ ul,ol {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-.header-nav {
+
+.header-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.header-nav {
+    align-items: center;
+    display: flex;
 }
 
 .logo {
@@ -97,7 +103,6 @@ ul,ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-   
 }
 
 .address-link:hover,
