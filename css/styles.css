@@ -44,7 +44,11 @@ ul,ol {
     color: #2e2f42;
 }
 
-.nav-menu {}
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    padding-left: 0px;
+}
 
 .address-nav {
     display: flex;
@@ -140,8 +144,26 @@ background-color: #404BBF
     padding-bottom: 120px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
+  margin: -1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
     
 
@@ -267,7 +289,8 @@ background-color: #404BBF
 }
 
 .portfolio-list {
-    width: calc((100% - 48px) / 3);
+/* width: calc((100% - 24px * 2) / 3); */
+    width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-cont {
@@ -288,6 +311,7 @@ background-color: #404BBF
         color: #2e2f42;
         padding-top: 32px;
         padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -316,7 +340,7 @@ background-color: #404BBF
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block; 
+    display: inline-block;
 }
           
 
@@ -327,7 +351,6 @@ background-color: #404BBF
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    display: inline-block;
 }
         
 
