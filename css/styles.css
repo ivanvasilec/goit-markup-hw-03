@@ -97,7 +97,7 @@ ul,ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    display: flex;
+   
 }
 
 .address-link:hover,
@@ -107,7 +107,7 @@ ul,ol {
 /* hero  */
 .hero {
     background: #2e2f42;
-padding: 188px 0px;
+    padding: 188px 0px;
 }
 
 
@@ -180,21 +180,19 @@ background-color: #404BBF
 }
 
 .adventages-subtitle {
-                   font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                letter-spacing: 0.02em;
-                color: #2e2f42;
-                margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .adventages-item-text {
-    font-family: "Raleway", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        line-height: 1.5;
-        color: #434455;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Team */
