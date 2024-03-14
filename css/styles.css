@@ -24,6 +24,10 @@ ul, ol {
     padding-top: 21px;
     padding-bottom: 21px;
 }
+.header-nav{
+    display: flex;
+    align-items: center;
+}
 
 .logo {
         font-family: "Raleway", sans-serif;
@@ -38,6 +42,13 @@ ul, ol {
 
 .logo-part {
     color: #2e2f42;
+}
+
+.nav-menu {}
+
+.address-nav {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link {
@@ -132,8 +143,15 @@ background-color: #404BBF
     
 }
 
-.adventages-item-list {
-    margin-bottom: 8px;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
     
 
@@ -145,6 +163,7 @@ background-color: #404BBF
 
 .adventages-item-title {
     width: calc((100% - 72px) / 4);
+    display: flex;
 }
 
 .adventages-subtitle {
@@ -153,7 +172,7 @@ background-color: #404BBF
                 line-height: 1.2;
                 letter-spacing: 0.02em;
                 color: #2e2f42;
-                padding-bottom: 8px;
+                margin-bottom: 8px;
 }
 
 .adventages-item-text {
@@ -199,9 +218,20 @@ background-color: #404BBF
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-item-picture {}
+
+
+.mark-designer,
+.tom-developer,
+.camila-marketing,
+.daniel-designer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 .team-item-title {
     font-weight: 500;
@@ -294,8 +324,9 @@ background-color: #404BBF
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
-        
+          
 
 .footer-list-item {
     font-weight: 700;
@@ -303,7 +334,9 @@ background-color: #404BBF
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;}
+    color: #f4f4fd;
+}
+        
 
 .footer-title {
     font-weight: 400;
