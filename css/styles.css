@@ -112,7 +112,7 @@ ul,ol {
     color: #404bbf;
 }
 
-.container-header-container {
+.header-container {
         display: flex;
         justify-content: center;
 }
