@@ -157,6 +157,8 @@ ul,ol {
     margin-left: auto;
     display: block;
     min-width: 169px;
+    height: 56px;
+    cursor: pointer;
 }
 
 .hero-order:hover,
@@ -304,8 +306,7 @@ background-color: #404BBF
 }
 
 .portfolio-list {
-/* width: calc((100% - 24px * 2) / 3); */
-   width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-cont {
@@ -341,12 +342,9 @@ background-color: #404BBF
 }
 
 
-.container-footer-container {
-
-}
 
 .footer-logo {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
