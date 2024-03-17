@@ -344,6 +344,7 @@ background-color: #404BBF
 
 
 .footer-logo {
+        display: inline-block;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -352,7 +353,6 @@ background-color: #404BBF
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
         margin-bottom: 16px;
-        display: inline-block;
 }
 
 .footer-logo-studio {
