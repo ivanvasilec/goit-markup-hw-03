@@ -37,14 +37,11 @@ ul,ol {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .header-nav {
     align-items: center;
     display: flex;
+    flex-grow: 1;
 }
 
 .logo {
@@ -56,6 +53,8 @@ ul,ol {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
+        display: flex;
+        align-items: center;
 }
 
 .logo-part {
@@ -71,6 +70,7 @@ ul,ol {
 .address-nav {
     display: flex;
     gap: 40px;
+    padding-left: 0;
 }
 
 .nav-link {
@@ -91,6 +91,10 @@ ul,ol {
     font-style: normal;
 }
 
+.address-contact-link {
+
+}
+
 .address-link {
         font-size: 16px;
         line-height: 1.5;
@@ -98,11 +102,19 @@ ul,ol {
         color: #434455;
 }
 
+.address-link:focus {
+    color: #404bbf;
+}
+.address-link:hover {
+    color: #404bbf;
+}
+
 .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
 }
 
 .address-link:hover,
@@ -126,23 +138,25 @@ ul,ol {
         color: #fff;
         margin-bottom: 48px;
         max-width: 496px;
-        margin: 0auto;
+        margin-right: auto;
+        margin-left: auto;
 }
 
 .hero-order {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
     font-family: "Roboto", sans-serif;
-        background-color: #4D5AE5;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        cursor: pointer;
-        display: block;
-        min-width: 169px;
-        height: 56px;
-        border: none;
-        border-radius: 4px;    
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    min-width: 169px;
 }
 
 .hero-order:hover,
@@ -153,9 +167,7 @@ background-color: #404BBF
 /* advetages */
 
 .adventages {
-    background-color: #F4F4FD;
-    margin-left: 156px;
-    margin-right: 156px;
+    background-color: #ffffff;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -181,7 +193,6 @@ background-color: #404BBF
 
 .adventages-item-title {
     width: calc((100% - 72px) / 4);
-    display: flex;
 }
 
 .adventages-subtitle {
@@ -204,8 +215,7 @@ background-color: #404BBF
 
 .team {
     background-color: #F4F4FD;
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .team-item {
@@ -221,8 +231,6 @@ background-color: #404BBF
 
 .team-list-title {
     background-color: #FFFFFF;
-    padding-bottom: 120px;
-    padding-top: 72px;
     display: flex;
     gap: 24px;
 }
@@ -237,8 +245,7 @@ background-color: #404BBF
 
 
 .mark-designer {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 
 
@@ -253,8 +260,7 @@ background-color: #404BBF
         margin-bottom: 8px;
 }
 
-.team-item-text {
-        font-weight: 400;
+/*         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -262,16 +268,23 @@ background-color: #404BBF
         color: #434455;
         padding-top: 0px;
         padding-bottom: 32px;
+        } */
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    background-color: #ffffff;
 }
 /* Portfolio */
 
 .portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-item {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -299,42 +312,38 @@ background-color: #404BBF
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-images {}
 
 .portfolio-item-list {
-    font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
-        padding-bottom: 8px;
         margin-bottom: 8px;
 }
 
 .portfolio-title {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
 }
 
 /* Footer */
 
 .footer {
     background-color: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 
-.footer-container {}
+.container-footer-container {
+
+}
 
 .footer-logo {
     font-weight: 700;
@@ -353,7 +362,7 @@ background-color: #404BBF
 }
 
 .footer-text {
-    font-size: 16px;
+        font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
